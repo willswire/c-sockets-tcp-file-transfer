@@ -55,6 +55,7 @@ client connected from 127.0.0.1
 6. At this point, on the client window, you may request a file from the server. To demonstrate what happens when the client requests a file that **does not exist**, type the following into the client program and then press enter:
 `document.txt`
 Both the server and client should report an error stating that the requested file is unavailable, and the client program will exit. The outputs of both programs should yeild the following:
+
 **./server**
 ```
 requestedFilename received
@@ -69,6 +70,7 @@ file not found
 7. Repeat step 5 in the client window. Once the program asks for the filename, type the following and then press enter:
 `image.png`
 The output of both programs should return the following:
+
 **./server**
 ```
 requestedFilename received
